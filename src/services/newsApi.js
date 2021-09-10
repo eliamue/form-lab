@@ -1,8 +1,8 @@
 export const formatArticles = (json) =>
-  json.articles.map(article => ({
+  json.articles.map((article) => ({
     title: article.title,
     author: article.author,
-    description: article.description
+    description: article.description,
   }));
 
 export const fetchArticles = async () => {
