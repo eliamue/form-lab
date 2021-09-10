@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleList displays a list of articles 1`] = `
+<ul
+  aria-label="articles"
+>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Stephen King quiere más películas de ‘Sharknado’ y ofrece un par de ideas
+           - 
+          Hipersónica
+        </figcaption>
+        <p>
+          Quizá un día toque hacer una reivindicación sentida de las películas de Sharknado. Quizás. De lo que no cabe duda es que las chifladas películas de desastres no le hacen ningún mal a nadie e incluso le pueden salvar una tarde de domingo muy aburrida. No sabem…
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Sharknado: The Complete 6-Movie Saga in HD Digital for $4.99 at Microsoft
+           - 
+          cheebong
+        </figcaption>
+        <p>
+          Microsoft has Sharknado: The Complete Saga for $4.99. TODAY only. It is NOT Movies Anywhere, so no port. Own all 6 Sharknado films – the entire saga! Take the journey from the first storm, crushi ...
+        </p>
+      </figure>
+    </div>
+  </li>
+</ul>
+`;

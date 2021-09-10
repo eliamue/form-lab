@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article displays a article 1`] = `
+<figcaption>
+  Sharknado: The Complete 6-Movie Saga in HD Digital for $4.99 at Microsoft
+   - 
+  cheebong
+</figcaption>
+`;
