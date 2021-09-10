@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Controls from '../components/news/Controls';
-import NewsList from '../components/news/NewsList';
+import Search from '../components/news/Search';
+import ArticleList from '../components/Article/NewsList';
 import { fetchNewsArticleByTitle, fetchArticles } from '../services/newsApi';
 
 export default class NewsSearch extends Component {
@@ -33,12 +33,12 @@ export default class NewsSearch extends Component {
     if(loading) return <p>Loading</p>;
     return (
       <div>
-        <Controls
+        <Search
           articleTitle={articleTitle}
           onArticleTitleChange={this.handleArticleTitleChange}
           onSubmit={this.handleSubmit}
         />
-        <NewsList articles={articles} />
+        <ArticleList articles={articles} />
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Controls = ({ articleTitle, onArticleTitleChange, onSubmit }) => (
+const Search = ({ articleTitle, onArticleTitleChange, onSubmit }) => (
   <form onSubmit={onSubmit}>
     <label htmlFor="articleTitle">Title</label>
     <input
@@ -14,10 +14,10 @@ const Controls = ({ articleTitle, onArticleTitleChange, onSubmit }) => (
   </form>
 );
 
-Controls.propTypes = {
+Search.propTypes = {
   articleTitle: PropTypes.string.isRequired,
   onArticleTitleChange: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,
 };
 
-export default Controls;
+export default Search;

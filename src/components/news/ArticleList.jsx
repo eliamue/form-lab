@@ -1,18 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import News from './News';
+import Article from './Article';
 
-const NewsList = ({ articles }) => (
+const ArticleList = ({ articles }) => (
   <ul aria-label="articles">
     {articles.map(({ title, author, description }) => (
       <li key={`${title}-${author}`}>
-        <News title={title} author={author} description={description} />
+        <Article title={title} author={author} description={description} />
       </li>
     ))}
   </ul>
 );
 
-NewsList.propTypes = {
+ArticleList.propTypes = {
   articles: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string.isRequired,
@@ -22,4 +22,4 @@ NewsList.propTypes = {
   ),
 };
 
-export default NewsList;
+export default ArticleList;
