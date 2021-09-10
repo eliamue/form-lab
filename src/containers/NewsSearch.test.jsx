@@ -13,7 +13,7 @@ describe('NewsSearch', () =>
     const ul = await screen.findByRole('list');
     expect(ul).not.toBeEmptyDOMElement();
 
-    const input = await screen.findByLabelText('Title');
+    const input = await screen.findByLabelText('Search by Keyword in Title:');
     userEvent.type(input, 'Sharknado');
     // eslint-disable-next-line max-len
     const submitButton = await screen.findByRole('button', { name: 'find-articles', });
