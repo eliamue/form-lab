@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Search from '../components/news/Search';
 import ArticleList from '../components/news/ArticleList';
-import { fetchNewsArticleByTitle, fetchArticles } from '../services/newsApi';
+import { fetchArticlesByTitle, fetchArticles } from '../services/newsApi';
 
 export default class NewsSearch extends Component {
   state = {
@@ -23,7 +23,7 @@ export default class NewsSearch extends Component {
     event.preventDefault();
 
     this.setState({ loading: true });
-    const articles = await fetchNewsArticleByTitle(this.state.articleTitle);
+    const articles = await fetchArticlesByTitle(this.state.articleTitle);
     this.setState({ articles, loading: false });
   };
 

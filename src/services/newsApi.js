@@ -8,7 +8,7 @@ export const formatArticles = (json) =>
 export const fetchArticles = async () => {
   const res = await fetch(
     // eslint-disable-next-line max-len
-    'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=dbd0e127d865484e89ba1f1171627bfb'
+    `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=${process.env.REACT_APP_NEWS_API_KEY}`
   );
   const json = await res.json();
 
@@ -18,7 +18,7 @@ export const fetchArticles = async () => {
 export const fetchArticlesByTitle = async (articleTitle) => {
   const res = await fetch(
     // eslint-disable-next-line max-len
-    `https://newsapi.org/v2/everything?qInTitle=${articleTitle}&apiKey=dbd0e127d865484e89ba1f1171627bfb`
+    `https://newsapi.org/v2/everything?qInTitle=${articleTitle}&apiKey=${process.env.REACT_APP_NEWS_API_KEY}`
   );
   const json = await res.json();
 

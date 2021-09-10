@@ -1,3 +1,5 @@
+import dotenv from 'dotenv';
+dotenv.config();
 import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
@@ -11,16 +13,16 @@ describe('NewsSearch', () =>
     const ul = await screen.findByRole('list');
     expect(ul).not.toBeEmptyDOMElement();
 
-    // const input = await screen.findByLabelText('Title');
-    // userEvent.type(input, 'Amazon');
-    // // eslint-disable-next-line max-len
-    // const submitButton = await screen.findByRole('button', { name: 'find-articles', });
-    // userEvent.click(submitButton);
+    const input = await screen.findByLabelText('Title');
+    userEvent.type(input, 'Sharknado');
+    // eslint-disable-next-line max-len
+    const submitButton = await screen.findByRole('button', { name: 'find-articles', });
+    userEvent.click(submitButton);
 
-    // return waitFor(() => {
-    //   const articles = screen.getAllByText('CNBC', { exact: false });
+    return waitFor(() => {
+      const articles = screen.getAllByText('Saga', { exact: false });
 
-    //   expect(articles).not.toBeEmptyDOMElement();
-    // });
+      expect(articles).toMatchSnapshot();
+    });
   })
 );
