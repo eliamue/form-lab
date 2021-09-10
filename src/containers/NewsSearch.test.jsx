@@ -21,7 +21,6 @@ describe('NewsSearch', () =>
 
     return waitFor(() => {
       const articles = screen.getAllByText('Sharknado', { exact: false });
-
       expect(articles).toMatchSnapshot();
     });
   })
