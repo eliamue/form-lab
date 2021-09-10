@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Search from '../components/news/Search';
 import ArticleList from '../components/news/ArticleList';
 import { fetchArticlesByTitle, fetchArticles } from '../services/newsApi';
+import '../components/styles/News.css';
 
 export default class NewsSearch extends Component {
   state = {
