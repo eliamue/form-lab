@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Search = ({ articleTitle, onArticleTitleChange, onSubmit }) => (
-  <form onSubmit={onSubmit}>
+  <form onSubmit={onSubmit} data-testid="search-form">
     <label htmlFor="articleTitle">Search by Keyword in Title: </label>
     <input
       id="articleTitle"

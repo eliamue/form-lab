@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls displays a form 1`] = `
+<form
+  data-testid="search-form"
+>
+  <label
+    for="articleTitle"
+  >
+    Search by Keyword in Title: 
+  </label>
+  <input
+    id="articleTitle"
+    type="type"
+    value="Bender"
+  />
+  <button
+    aria-label="find-articles"
+  >
+    Submit
+  </button>
+</form>
+`;

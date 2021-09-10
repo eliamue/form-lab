@@ -1,7 +1,302 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`NewsSearch displays a list of news articles 1`] = `
+<ul
+  aria-label="articles"
+>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Undaunted by Bitcoin flash crash, crypto bulls say 'the greatest time' to invest is now - Yahoo Finance
+           - 
+          David Hollerith
+        </figcaption>
+        <p>
+          Despite the ugly price action, most of crypto's true believers are still just that.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Google Reportedly Shortchanged Temps Around the Globe—Potentially Costing Them $100 Million in Wages - Gizmodo
+           - 
+          Tom McKay
+        </figcaption>
+        <p>
+          Reports in the New York Times and Guardian show Google execs slow-rolled a solution rather than attract media attention.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Stock Market Extends Its Slow Descent; These Signs Point To Weakening Market - Investor's Business Daily
+           - 
+          Investor's Business Daily
+        </figcaption>
+        <p>
+          The stock market closed lower Friday and at session lows, adding to a weakening trend slowly building in the major indexes.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          MTA Power Failure Caused By Someone Who Accidentally Pushed Wrong Button, Report Says - Gothamist
+           - 
+          https://gothamist.com/staff/stephen-nessen
+        </figcaption>
+        <p>
+          Hundreds of riders were stranded on trains when power was lost on all the number lines and the L.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Taco Bell Wants To Recycle Old Sauce Packets - NPR
+           - 
+          NPR
+        </figcaption>
+        <p>
+          More than 8 billion of the packets wind up in landfills each year. Now, the fast food chain wants customers to send them in so they can be recycled into other products.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Survey: 48% Of Brazilians Want To Make Bitcoin A Legal Currency - Bitcoin Magazine
+           - 
+          Namcios
+        </figcaption>
+        <p>
+          Brazilians were the biggest supporters of El Salvador's move among all countries surveyed and want to replicate that in their country.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          United Airlines workers with religious objections to the Covid vaccine will be placed on unpaid leave - CNN
+           - 
+          Chris Isidore, CNN Business
+        </figcaption>
+        <p>
+          United Airlines told employees that they will be placed on indefinite unpaid leave if they refuse to get a Covid vaccine for religious reasons.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Here's how much your Social Security benefits will be if you make $35,000 per year - CNBC
+           - 
+          Robert Exley Jr.
+        </figcaption>
+        <p>
+          Here's how much money you can expect to get in Social Security benefits if you make an average of $35,000 per year during your career.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Unvaccinated people were 11 times more likely to die of COVID-19, CDC report finds - Fox News
+           - 
+          Peter Aitken
+        </figcaption>
+        <p>
+          Unvaccinated people face a far greater chance of death from the COVID-19 delta variant, according to a new study from the Centers for Disease Control.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Postal Service Takes Wait-and-See Approach on COVID-19 Vaccine Mandates - GovExec.com
+           - 
+          Eric Katz
+        </figcaption>
+        <p>
+          USPS may soon have to set up widespread testing for unvaccinated staff, but agency officials do not yet know how many employees have received shots.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Hawaii reports 747 new COVID infections, 8 more deaths - Hawaii News Now
+           - 
+          HNN Staff
+        </figcaption>
+        <p>
+          The death toll from the virus now stands at 641.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          US Senators Call On EEOC To Probe Amazon's Treatment Of Pregnant Workers - NPR
+           - 
+          
+        </figcaption>
+        <p>
+          Lawmakers urged the Equal Employment Opportunity Commission to investigate in a letter signed by Senators Kirsten Gillibrand, Bernie Sanders, Elizabeth Warren and 3 others.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Couple kicked off JetBlue flight for refusing to wear masks properly, berating crew - New York Post 
+           - 
+          Yaron Steinbuch
+        </figcaption>
+        <p>
+          The airline said the passengers were asked several times to properly wear their face coverings before take-off but they ignored the federal mandate.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          How to Get Amazon (and Other Retailers) to Pay Your College Tuition - Lifehacker
+           - 
+          Mike Winters
+        </figcaption>
+        <p>
+          You can reap the benefits of their increasing desperation for workers.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          DoorDash, Uber Eats and Grubhub sue NYC over restaurant fee limits - Engadget
+           - 
+          https://www.engadget.com/about/editors/kris-holt
+        </figcaption>
+        <p>
+          The city made the pandemic measures permanent last month..
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Some of the most iconic 9/11 news coverage is lost. Blame Adobe Flash - CNN
+           - 
+          Clare Duffy and Kerry Flynn, CNN Business
+        </figcaption>
+        <p>
+          Journalism is often considered the first draft of history, but what happens when that draft is written on a software program that becomes obsolete?
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Apple vs. Epic ruling reveals 70% of App Store revenue comes from a small fraction of customers playing games - CNBC
+           - 
+          Jessica Bursztynsky
+        </figcaption>
+        <p>
+          That 70% is generated by less than 10% of all App Store consumers.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Kroger gets hit by higher costs, theft—even as shoppers fill up grocery carts - CNBC
+           - 
+          Melissa Repko
+        </figcaption>
+        <p>
+          Shares of supermarket operator Kroger fell as investors worry about shrinking profits and squeezed margins.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Amazon likely front-runner for multiyear NFL Sunday Ticket deal, sources say - CNBC
+           - 
+          Alex Sherman
+        </figcaption>
+        <p>
+          Amazon has serious interest in the NFL's "Sunday Ticket" package as talks progress.
+        </p>
+      </figure>
+    </div>
+  </li>
+  <li>
+    <div>
+      <figure>
+        <figcaption>
+          Elon Musk drives through loophole by launching Tesla on tribal land | TheHill - The Hill
+           - 
+          Joseph Guzman
+        </figcaption>
+        <p>
+          Tesla opened its first facility in New Mexico this week in partnership with the Nambé Pueblo.
+        </p>
+      </figure>
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`NewsSearch displays a list of news articles 2`] = `
 Array [
+  <figcaption>
+    Stephen King quiere más películas de ‘Sharknado’ y ofrece un par de ideas
+     - 
+    Hipersónica
+  </figcaption>,
+  <p>
+    Quizá un día toque hacer una reivindicación sentida de las películas de Sharknado. Quizás. De lo que no cabe duda es que las chifladas películas de desastres no le hacen ningún mal a nadie e incluso le pueden salvar una tarde de domingo muy aburrida. No sabem…
+  </p>,
   <figcaption>
     Sharknado: The Complete 6-Movie Saga in HD Digital for $4.99 at Microsoft
      - 

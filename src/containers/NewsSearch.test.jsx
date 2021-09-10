@@ -11,7 +11,7 @@ describe('NewsSearch', () =>
 
     screen.getByText('Loading');
     const ul = await screen.findByRole('list');
-    expect(ul).not.toBeEmptyDOMElement();
+    expect(ul).toMatchSnapshot();
 
     const input = await screen.findByLabelText('Search by Keyword in Title:');
     userEvent.type(input, 'Sharknado');
@@ -20,7 +20,7 @@ describe('NewsSearch', () =>
     userEvent.click(submitButton);
 
     return waitFor(() => {
-      const articles = screen.getAllByText('Saga', { exact: false });
+      const articles = screen.getAllByText('Sharknado', { exact: false });
 
       expect(articles).toMatchSnapshot();
     });
