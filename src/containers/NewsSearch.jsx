@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Search from '../components/news/Search';
-import ArticleList from '../components/Article/NewsList';
+import ArticleList from '../components/news/ArticleList';
 import { fetchNewsArticleByTitle, fetchArticles } from '../services/newsApi';
 
 export default class NewsSearch extends Component {
